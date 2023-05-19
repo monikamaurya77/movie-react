@@ -4,7 +4,7 @@ export const AuthContext = createContext();
 
 const CustomProvider = ({ children }) => {
 
-  const [login, setlogin] = useState(false);
+  const [login, setlogin] = useState(true);
   const [ApiData, SetApiData] = useState([]);
   const [getData, SetGetData] = useState([]);
   const [SearchApi, setSearchApi] = useState([]);
