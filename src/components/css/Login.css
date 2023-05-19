@@ -1,7 +1,7 @@
 .container {
   display: flex;
   margin: 4rem auto;
-  border: 2px solid red;
+  border: 2px solid cyan;
   color: white;
   height: 80%;
   width: 70%;
@@ -43,7 +43,8 @@ input:focus {
 }
 .sign-in {
   width: 73%;
-  height: 9%;
+  padding: 1rem;
+  margin-top: 1rem;
   background-color: red;
   color: white;
   border: none;
