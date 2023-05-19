@@ -76,16 +76,20 @@ input:focus {
   }
   .email {
     font-size: 10px;
+     margin-left: .7rem;
   }
 
   .password {
     font-size: 10px;
+     margin-left: .7rem;
   }
   h1 {
     font-size: 13px;
+     margin-left: .7rem;
   }
   p {
     font-size: 10px;
+     margin-left: .7rem;
   }
   .input1 {
       width: 140px;
