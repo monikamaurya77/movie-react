@@ -29,7 +29,7 @@ const Login = () => {
         <p style={{ color: "#a3a4b1" }}>Sign in to your account</p>
         <p className="email">Email</p>
 
-        <input className="input" onChange={(e) => {
+        <input className="input input1" onChange={(e) => {
           setUser({
             ...user,
             name: e.target.value,
@@ -43,7 +43,7 @@ const Login = () => {
             ...user,
             password: e.target.value,
           });
-        }} type="password" placeholder="Enter password" className="input" />
+        }} type="password" placeholder="Enter password" className="input input1" />
       
         <button onClick={handleLogin} className="sign-in" >Sign in</button>
        
