@@ -44,9 +44,9 @@ const Login = () => {
             password: e.target.value,
           });
         }} type="password" placeholder="Enter password" className="input input1" />
-      
+      <div>
         <button onClick={handleLogin} className="sign-in" >Sign in</button>
-       
+       </div>
       </div>
     </div>
   )
