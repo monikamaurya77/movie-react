@@ -22,7 +22,7 @@
 }
 
 .input {
-  width: 68px;
+  width: 300px;
   height: 6.5%;
   margin-top: -1rem;
   border-radius: 3px;
@@ -89,8 +89,8 @@
     font-size: 10px;
   }
   .input {
-      width: 10px;
-  height: 6.5%;
+      width: 140px;
+    height: 6.5%;
     margin-top: 0;
     border-radius: 0rem;
     background-color: #151523;
