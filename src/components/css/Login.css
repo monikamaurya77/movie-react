@@ -47,15 +47,9 @@
   background-color: red;
   color: white;
   border: none;
-}
-.forget-password {
-  color: #a3a4b1;
-  margin-left: 47%;
+  margin-top: 1rem;
 }
 
-.sign-up {
-  margin-left: 16%;
-}
 
 @media screen and (max-device-width: 480px) {
   .container {
