@@ -98,19 +98,11 @@ input:focus {
     font-size: 6px;
     margin-left: 2px;
   }
-  .forget-password {
-    color: #a3a4b1;
-    margin-left: 0%;
-  }
 
-  .sign-up {
-    margin-left: 0%;
-    font-size: 9px;
-  }
   .sign-in {
     width: 73%;
     height: 7%;
-    margin-left: 0rem;
+    margin-left: 1rem;
     background-color: red;
     color: white;
     border: none;
