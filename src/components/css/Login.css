@@ -43,12 +43,11 @@ input:focus {
 }
 .sign-in {
   width: 73%;
-  height: 7%;
+  height: 9%;
   background-color: red;
   color: white;
   border: none;
 }
-
 @media screen and (max-device-width: 480px) {
   .container {
     display: flex;
