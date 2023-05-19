@@ -21,7 +21,7 @@
   margin-top: 2rem;
 }
 
-.input {
+input {
   width: 180px;
   height: 6.5%;
   margin-top: -1rem;
@@ -30,7 +30,7 @@
   border: 1px solid #a3a4b1;
   color: white;
 }
-.input:focus {
+input:focus {
   outline: none;
   border: 1px solid red;
 }
