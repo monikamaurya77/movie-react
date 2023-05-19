@@ -62,8 +62,8 @@
 @media screen and (max-device-width: 480px) {
   .insidemain {
     width: 80%;
-    height: 100%;
-    margin: 20px 0;
+    height: 95%;
+    margin: 20px auto;
   }
   .insidemain .imgleft {
     /* border: 2px solid magenta; */
