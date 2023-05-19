@@ -43,8 +43,8 @@ input:focus {
 }
 .sign-in {
   width: 73%;
-  padding: 1rem;
-  margin-top: 1rem;
+  padding: .8rem;
+  margin-top: 2rem;
   background-color: red;
   color: white;
   border: none;
