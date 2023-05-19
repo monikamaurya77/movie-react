@@ -44,9 +44,9 @@ const Login = () => {
             password: e.target.value,
           });
         }} type="password" placeholder="Enter password" className="input" />
-        <p className="forget-password">Forget Password?</p>
+      
         <button onClick={handleLogin} className="sign-in" >Sign in</button>
-        <p className="sign-up">Don't have an account?<span style={{ color: "red" }}>Sign up</span></p>
+       
       </div>
     </div>
   )
