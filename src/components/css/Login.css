@@ -21,8 +21,8 @@
   margin-top: 2rem;
 }
 
-input {
-  width: 180px;
+.input {
+  width: 68%;
   height: 6.5%;
   margin-top: -1rem;
   border-radius: 3px;
@@ -42,14 +42,12 @@ input:focus {
   font-size: 1.2rem;
 }
 .sign-in {
-  width: 18%;
+  width: 73%;
   height: 7%;
   background-color: red;
   color: white;
   border: none;
- 
 }
-
 
 @media screen and (max-device-width: 480px) {
   .container {
