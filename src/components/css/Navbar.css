@@ -1,0 +1,33 @@
+.navbar {
+  display: flex;
+  /* border: 2px solid red; */
+}
+/* 
+.navbar-logo{
+    border: 2px solid blue;
+   
+} */
+.navbar-items {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin-left: 13rem;
+  /* border: 2px solid green; */
+}
+.movie-name-left1 {
+  margin-left: -9rem;
+  /* border: 2px solid red; */
+}
+.movie-name-left2 {
+  /* border: 2px solid red; */
+  margin-left: -9rem;
+}
+
+@media screen and (max-device-width: 480px) {
+  .movie-name2 {
+    display: none;
+  }
+  .navbar-items {
+    padding: 4px;
+  }
+}

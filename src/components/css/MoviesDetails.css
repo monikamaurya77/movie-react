@@ -1,0 +1,113 @@
+.detailsmain {
+  display: flex;
+  /* border: 2px solid red; */
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+}
+
+.insidemain {
+  width: 90%;
+  height: 80%;
+  /* border: 2px solid black; */
+  box-shadow: 0px 0px 20px rgb(13, 228, 188);
+  margin: 70px auto;
+  display: flex;
+}
+
+.insidemain .imgleft {
+  /* border: 2px solid magenta; */
+  width: 40%;
+  height: 100%;
+}
+
+.content .insideContent {
+  /* border: 2px solid firebrick; */
+  margin-top: 3px;
+  width: 750px;
+  height: 79vh;
+  margin-left: 100px;
+}
+
+.Title {
+  font-size: 18px;
+  color: white;
+}
+
+.adult p {
+  font-size: 20px;
+  color: aqua;
+}
+
+.h1 {
+  font-size: 30px;
+  text-align: justify;
+  color: white;
+}
+
+.release p {
+  font-size: 20px;
+  color: white;
+}
+.paras {
+  margin-right: 50px;
+  font-size: 20px;
+  color: cyan;
+}
+.release-content {
+  font-size: 25px;
+  font-weight: 600px;
+  margin-top: -0.6rem;
+}
+@media screen and (max-device-width: 480px) {
+  .insidemain {
+    width: 80%;
+    height: 80%;
+    margin: 20px 0;
+  }
+  .insidemain .imgleft {
+    /* border: 2px solid magenta; */
+    width: 1000px;
+    height: 160px;
+  }
+  .content .insideContent {
+    /* border: 2px solid firebrick; */
+    margin-top: 0px;
+    width: 80%;
+    height: 79vh;
+    margin-left: 0px;
+  }
+  .first {
+    font-size: 20px;
+    /* background-color: red; */
+    padding-left: 8px;
+  }
+  .h1 {
+    font-size: 20px;
+    text-align: justify;
+    color: white;
+  }
+  .adult p {
+    font-size: 14px;
+  }
+  .vote {
+    padding-top: 1.2rem;
+    padding-left: 7px;
+    font-size: 14px;
+    /* background-color: aqua; */
+  }
+  .paras {
+    margin: 0px;
+    font-size: 11px;
+  }
+  .release p {
+    font-size: 14px;
+    color: white;
+    margin-top: -0.1rem;
+    padding-left: 8px;
+  }
+  .Title {
+    font-size: 14px;
+    padding-left: 8px;
+  }
+}
